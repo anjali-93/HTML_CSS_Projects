@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <link rel="stylesheet" href="./CSS Files/booking.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- -------------    For NAvbar---------------------    -->
+
+    <input type="checkbox" id="toggle">
+    <nav id="navbar">
+        <a href="home.html" class="navbar-brand">
+            <img src="https://thumbs.dreamstime.com/b/foodie-chef-logo-graphic-20100575.jpg" alt="">
+        </a>
+        <label for="toggle" class="navbar-toggler">
+            <span class="bar"></span><span class="bar">
+            </span><span class="bar"></span>
+        </label>
+        <ul class="navbar-list">
+            <li class="nav-list">
+                <a href="home.html" class="nav-link">
+                    Home
+                </a>
+            </li>
+
+            <li class="nav-list">
+                <a href="#" class="nav-link">
+                    Menu
+                </a>
+            </li>
+
+            <li class="nav-list">
+                <a href="about.html" class="nav-link">
+                    About
+                </a>
+            </li>
+
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="#" class="nav-link">
+                    Delivery
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ---------------------- Content ---------------------------- -->
+
+    <section class="reserve">
+        <h2 class="re-text">Reservation</h2>
+        <h1>Make a Reservation</h1>
+        <div class="content">
+            <div class="h2">
+                <hr class="new">
+            </div>
+            <div class="image2">
+                <img src="./Images/yellow wave.png" alt="" class="image1">
+            </div>
+            <div class="h2">
+                <hr class="new">
+            </div>
+        </div>
+
+        <!-- ---------------- Form ------------------- -->
+
+        <div class="box">
+            <div class="image">
+                <img src="https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+
+            <div class="form">
+                <h3>Booking a table online is easy</h3>
+                <form action="" class="myform">
+                    
+                    <div>
+                        <label for="name">Your Name <span>*</span> </label>
+                        <input type="text" name="" id="name" placeholder="Name here" required>
+                    </div>
+    
+                    <div>
+                        <label for="email">Your Email <span>*</span> </label>
+                        <input type="email" name="email" id="email" placeholder="Email here" required>
+                    </div>
+    
+                    <div>
+                        <label for="phn">How can we contact you?</label>
+                        <input type="type" name="number" placeholder="Phone Number here" id="phn">
+                    </div>
+    
+                    <div>
+                        <label for="date" title="DD/MM/YYYY">Date <span>*</span> </label>
+                        <input type="text" name="" id="date" placeholder="Booking date here" required title="DD/MM/YYYY">
+                    </div>
+    
+                    <div>
+                        <label for="start">From <span>*</span></label>
+                        <input type="type" id="start" placeholder="Start time here" required>
+                    </div>
+    
+                    <div>
+                        <label for="end">To <span>*</span> </label>
+                        <input type="type" id="end" placeholder="End time here" required>
+                    </div>
+    
+                    <div class="guest">
+                        <label for="guest">Total Guest <span>*</span> </label>
+                        <input type="number" id="guest" required>
+                    </div>
+
+                    <div class="textarea">
+                        <label for="start">Special Information</label>
+                        <textarea name="add" id="start" placeholder="Enter Your Message here" required=""></textarea>
+        
+                    </div>
+                    <div class="btn">
+                        <button class="book-btn">Book a table</button>
+                        <div class="cancel">
+                            <a href="">Request Cancellation</a>
+                            <hr class="line">
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+    
+            </div>
+        </div>
+
+       
+    </section>
+
+</body>
+
+</html>
